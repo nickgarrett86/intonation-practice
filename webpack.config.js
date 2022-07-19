@@ -5,6 +5,11 @@ const htmlPlugin = new HtmlWebPackPlugin({
 });
 module.exports = {
   mode: "development",
+  devServer: {
+    port: 8080,
+    historyApiFallback: true,
+    hot: true,
+  },
   module: {
     rules: [
       {
