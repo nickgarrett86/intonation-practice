@@ -9,6 +9,8 @@ import {
 import GaugeChart from "react-gauge-chart";
 
 const noteStrings = [
+  "C",
+  "C#",
   "D",
   "D#",
   "E",
@@ -19,8 +21,6 @@ const noteStrings = [
   "A",
   "A#",
   "B",
-  "C",
-  "C#",
 ];
 
 const TuningVisualizer = ({ actualPitch, desiredPitch, ratingRatios }) => {
