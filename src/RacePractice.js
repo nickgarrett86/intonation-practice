@@ -8,7 +8,7 @@ import React, {
 import Button from "react-bootstrap/Button";
 import Practice from "./Practice";
 
-const correctGoal = 2;
+const correctGoal = 10;
 const timeInterval = 100; // ms
 
 const RacePractice = (props) => {
