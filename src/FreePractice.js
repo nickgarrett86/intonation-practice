@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from "react";
+import Button from "react-bootstrap/Button";
 import Practice from "./Practice";
 
 const FreePractice = (props) => {
@@ -12,7 +13,7 @@ const FreePractice = (props) => {
 
   const updateWrongNotes = useCallback(() => {
     setWrongNoteCount((c) => c + 1);
-  }, setWrongNoteCount);
+  }, [setWrongNoteCount]);
 
   const togglePause = () => {
     setPause((p) => !p);
